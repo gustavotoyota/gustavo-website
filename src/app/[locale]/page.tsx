@@ -10,19 +10,23 @@ export async function generateMetadata({ params: { locale } }: any) {
 }
 
 export default function Home() {
-  const t = useTranslations();
+  const t = useTranslations('home');
 
   return (
-    <>
-      <header>
-        <nav>
-          <ul>
-            <li>{t('header.home')}</li>
-            <li>{t('header.experience')}</li>
-            <li>{t('header.projects')}</li>
-          </ul>
-        </nav>
-      </header>
-    </>
+    <main className="flex-1 flex justify-center items-center">
+      <div className="text-center">
+        <div className="text-2xl font-semibold text-slate-800 dark:text-slate-400">
+          {t('gretting')}
+        </div>
+
+        <div className="pt-1 pb-3 text-7xl font-bold bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 dark:from-purple-700 dark:to-blue-500 text-transparent">
+          Gustavo Toyota
+        </div>
+
+        <div className="text-3xl font-semibold  text-slate-800 dark:text-slate-300">
+          {t('who')}
+        </div>
+      </div>
+    </main>
   );
 }
