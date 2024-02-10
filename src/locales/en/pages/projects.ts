@@ -12,4 +12,14 @@ export const projects = {
     description:
       'VisualSQL is a SQL query builder that uses a node-link system. It supports various operations, organizes queries in modules, and offers features like node descriptions for understanding complex queries, auto-completion of column names for ease of use, and the ability to reference nodes as subqueries for advanced queries.',
   },
+
+  sheetinsights: {
+    description:
+      'SheetInsights is a user interface for AI APIs like ChatGPT and OctoAI. It processes CSV data, performing user-defined queries on each row. For each row, SheetInsights sends a query to an AI API and saves the result in TSV format. It allows users to input the API key, select the LLM model for the query, and add multiple queries, each appearing in a separate output column.',
+  },
+
+  chessanalyzer: {
+    description:
+      'ChessAnalyzer is an open-source tool for chess analysis. You can evaluate positions with Stockfish 16, play against the computer, and visualize opponent’s threats. It supports import and export of FEN and PGN notations. Interactive features include drawing arrows, highlighting squares, and a mini board that previews positions when you hover over a move.',
+  },
 };
