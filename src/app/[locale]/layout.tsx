@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
+import { Providers } from '../providers';
 import Header from './header';
 
 const inter = Inter({
@@ -30,17 +31,22 @@ export default function LocaleLayout({
   const t = useTranslations();
 
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      suppressHydrationWarning
+    >
       <body
         className={`${inter.className} flex flex-col bg-slate-50 dark:bg-slate-900`}
       >
-        <Header />
+        <Providers>
+          <Header />
 
-        <div className="flex-1 flex flex-col">
-          <div className="h-16"></div>
+          <div className="flex-1 flex flex-col">
+            <div className="h-16"></div>
 
-          {children}
-        </div>
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
