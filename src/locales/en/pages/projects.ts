@@ -9,6 +9,7 @@ export const projects = {
   },
 
   visualsql: {
-    description: 'Visual SQL query builder.',
+    description:
+      'VisualSQL is a SQL query builder that uses a node-link system. It supports various operations, organizes queries in modules, and offers features like node descriptions for understanding complex queries, auto-completion of column names for ease of use, and the ability to reference nodes as subqueries for advanced queries.',
   },
 };
