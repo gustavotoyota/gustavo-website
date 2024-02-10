@@ -10,7 +10,7 @@ export const projects = {
 
   visualsql: {
     description:
-      'VisualSQL é um construtor visual de queries SQL que utiliza nós e links. Ele inclui várias operações, suporta organização de queries em módulos e permite adicionar descrições em nós para organizar queries complexas, autocompletação de nomes de colunas para facilitar o uso e a capacidade de referenciar nós como subconsultas para criar queries avançadas.',
+      'VisualSQL é um construtor visual de queries SQL que utiliza nós e links. Ele inclui várias operações, suporta organização de queries em módulos e permite adicionar descrições em nós para organizar queries complexas, autocompletação de nomes de colunas para facilitar o uso e a capacidade de referenciar nós como subqueries para criar queries avançadas.',
   },
 
   sheetinsights: {
