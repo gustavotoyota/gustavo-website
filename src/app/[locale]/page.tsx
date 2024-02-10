@@ -5,7 +5,7 @@ export async function generateMetadata({ params: { locale } }: any) {
   const t = await getTranslations({ locale, namespace: 'home' });
 
   return {
-    title: t('title'),
+    title: t('pageTitle'),
   };
 }
 
@@ -14,12 +14,12 @@ export default function Home() {
 
   return (
     <main className="flex-1 flex justify-center items-center">
-      <div className="text-center">
+      <div className="px-7 text-center">
         <div className="text-2xl font-semibold text-slate-800 dark:text-slate-400">
           {t('gretting')}
         </div>
 
-        <div className="pt-1 pb-3 text-7xl font-bold bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 dark:from-purple-700 dark:to-blue-500 text-transparent">
+        <div className="pt-1 pb-4 text-7xl font-extrabold bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 dark:from-purple-700 dark:to-blue-500 text-transparent">
           Gustavo Toyota
         </div>
 

@@ -6,7 +6,10 @@ import { getTranslations } from 'next-intl/server';
 
 import Header from './header';
 
-const inter = Inter({ weight: ['400', '600', '700'], subsets: ['latin'] });
+const inter = Inter({
+  weight: ['400', '600', '700', '800'],
+  subsets: ['latin'],
+});
 
 export async function generateMetadata({ params: { locale } }: any) {
   const t = await getTranslations({ locale, namespace: 'app' });

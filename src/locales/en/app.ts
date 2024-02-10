@@ -1,4 +1,5 @@
 export const app = {
   title: 'Gustavo Toyota',
-  description: 'Gustavo Toyota is a brazilian software developer.',
+  description:
+    'Software developer interested in extracting maximum power from simplicity, transforming complex code into elegant and efficient solutions.',
 };

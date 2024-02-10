@@ -1,4 +1,5 @@
 export const app = {
   title: 'Gustavo Toyota',
-  description: 'Gustavo Toyota é um desenvolvedor de software brasileiro.',
+  description:
+    'Desenvolvedor de software interessado em extrair o máximo de poder da simplicidade, transformando códigos complexos em soluções elegantes e eficientes.',
 };
