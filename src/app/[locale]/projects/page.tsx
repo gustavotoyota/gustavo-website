@@ -78,7 +78,7 @@ export default function Projects() {
             imageSrc="/projects/javacosmos.webp"
           />
 
-          <div className="h-60"></div>
+          <div className="h-40"></div>
         </div>
       </div>
     </main>
