@@ -24,7 +24,15 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <div className="text-3xl font-bold">DeepNotes</div>
+              <div className="text-3xl font-bold">
+                <a
+                  href="https://deepnotes.app"
+                  target="_blank"
+                  className="hover:text-white"
+                >
+                  DeepNotes
+                </a>
+              </div>
 
               <div className="h-6"></div>
 
@@ -38,7 +46,15 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <div className="text-3xl font-bold">VisualSQL</div>
+              <div className="text-3xl font-bold">
+                <a
+                  href="https://visualsql.net"
+                  target="_blank"
+                  className="hover:text-white"
+                >
+                  VisualSQL
+                </a>
+              </div>
 
               <div className="h-6"></div>
 
@@ -52,7 +68,15 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <div className="text-3xl font-bold">SheetInsights</div>
+              <div className="text-3xl font-bold">
+                <a
+                  href="https://sheetinsights.gustavotoyota.dev"
+                  target="_blank"
+                  className="hover:text-white"
+                >
+                  SheetInsights
+                </a>
+              </div>
 
               <div className="h-6"></div>
 
@@ -66,7 +90,15 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <div className="text-3xl font-bold">ChessAnalyzer</div>
+              <div className="text-3xl font-bold">
+                <a
+                  href="https://chessanalyzer.gustavotoyota.dev"
+                  target="_blank"
+                  className="hover:text-white"
+                >
+                  ChessAnalyzer
+                </a>
+              </div>
 
               <div className="h-6"></div>
 
