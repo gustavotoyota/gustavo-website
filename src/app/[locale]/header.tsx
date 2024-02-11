@@ -48,12 +48,6 @@ export default function Header() {
                   {t('projects')}
                 </Link>
               </li>
-              <li
-                className="px-5 py-3 cursor-pointer font-semibold select-none
-                text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
-              >
-                {t('posts')}
-              </li>
               <li className="ml-2 flex items-center">
                 <ThemeSwitcher />
               </li>
