@@ -1,8 +1,8 @@
 import './globals.css';
 
 import { useTranslations } from 'next-intl';
-import { MdMenu } from 'react-icons/md';
 
+import DropdownMenu from '@/components/DropdownMenu';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import { Link } from '@/navigation';
@@ -20,15 +20,6 @@ export default function Header() {
           <div className="flex-1"></div>
 
           <nav>
-            <div className="block md:hidden">
-              <button
-                className="w-11 h-11 rounded-full flex justify-center items-center
-                  cursor-pointer dark:hover:bg-blue-400/10 dark:hover:text-blue-400"
-              >
-                <MdMenu size={32} />
-              </button>
-            </div>
-
             <ul className="hidden md:flex">
               <li>
                 <Link
@@ -55,6 +46,10 @@ export default function Header() {
                 <LanguageSwitcher />
               </li>
             </ul>
+
+            <div className="block md:hidden">
+              <DropdownMenu />
+            </div>
           </nav>
         </div>
       </div>
