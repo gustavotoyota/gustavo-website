@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="flex-1 flex justify-center items-center">
-      <div className="px-7 text-center">
+      <div className="px-7 py-20 text-center">
         <div className="text-2xl font-semibold text-slate-800 dark:text-slate-400">
           {t('gretting')}
         </div>
