@@ -1,6 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
+import ProjectCard from '@/components/ProjectCard';
+
 export async function generateMetadata({ params: { locale } }: any) {
   const t = await getTranslations({ locale, namespace: 'projects' });
 
@@ -22,91 +24,52 @@ export default function Projects() {
 
           <div className="h-28"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="text-3xl font-bold">
-                <a
-                  href="https://deepnotes.app"
-                  target="_blank"
-                  className="hover:text-white"
-                >
-                  DeepNotes
-                </a>
-              </div>
-
-              <div className="h-6"></div>
-
-              <div>{t('deepnotes.description')}</div>
-            </div>
-
-            <div className="h-72 bg-neutral-500 rounded-2xl"></div>
-          </div>
+          <ProjectCard
+            title="DeepNotes"
+            description={t('deepnotes.description')}
+            techStack="Vue.js, Quasar, Vite, Sass, Node.js, Typescript, Fastify, tRPC, Electron, Capacitor, Redis, PostgreSQL"
+            liveUrl="https://deepnotes.app"
+            sourceCodeUrl="https://github.com/DeepNotesApp/DeepNotes"
+          />
 
           <div className="h-24"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="text-3xl font-bold">
-                <a
-                  href="https://visualsql.net"
-                  target="_blank"
-                  className="hover:text-white"
-                >
-                  VisualSQL
-                </a>
-              </div>
-
-              <div className="h-6"></div>
-
-              <div>{t('visualsql.description')}</div>
-            </div>
-
-            <div className="h-72 bg-neutral-500 rounded-2xl"></div>
-          </div>
+          <ProjectCard
+            title="VisualSQL"
+            description={t('visualsql.description')}
+            techStack="Vue.js, Nuxt.js, Vuetify, Typescript"
+            liveUrl="https://visualsql.net"
+            sourceCodeUrl="https://github.com/gustavotoyota/VisualSQL"
+          />
 
           <div className="h-24"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="text-3xl font-bold">
-                <a
-                  href="https://sheetinsights.gustavotoyota.dev"
-                  target="_blank"
-                  className="hover:text-white"
-                >
-                  SheetInsights
-                </a>
-              </div>
-
-              <div className="h-6"></div>
-
-              <div>{t('sheetinsights.description')}</div>
-            </div>
-
-            <div className="h-72 bg-neutral-500 rounded-2xl"></div>
-          </div>
+          <ProjectCard
+            title="SheetInsights"
+            description={t('sheetinsights.description')}
+            techStack="React, Next.js, Tailwind CSS, Typescript"
+            liveUrl="https://sheetinsights.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/SheetInsights"
+          />
 
           <div className="h-24"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="text-3xl font-bold">
-                <a
-                  href="https://chessanalyzer.gustavotoyota.dev"
-                  target="_blank"
-                  className="hover:text-white"
-                >
-                  ChessAnalyzer
-                </a>
-              </div>
+          <ProjectCard
+            title="ChessAnalyzer"
+            description={t('chessanalyzer.description')}
+            techStack="React, Next.js, Tailwind CSS, Typescript"
+            liveUrl="https://chessanalyzer.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/ChessAnalyzer"
+          />
 
-              <div className="h-6"></div>
+          <div className="h-24"></div>
 
-              <div>{t('chessanalyzer.description')}</div>
-            </div>
-
-            <div className="h-72 bg-neutral-500 rounded-2xl"></div>
-          </div>
+          <ProjectCard
+            title="JavaCosmos"
+            techStack="Java, Spring Boot, Hibernate, GraphQL, MongoDB, Kafka, RabbitMQ, Thymeleaf, Swagger, JUnit, Mockito"
+            description={t('javacosmos.description')}
+            sourceCodeUrl="https://github.com/gustavotoyota/JavaCosmos"
+          />
 
           <div className="h-60"></div>
         </div>

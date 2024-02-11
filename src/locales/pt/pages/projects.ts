@@ -22,4 +22,9 @@ export const projects = {
     description:
       'ChessAnalyzer é uma ferramenta de análise de xadrez de código aberto. Com ela, você pode avaliar posições usando o Stockfish 16 e jogar contra o computador. Também permite visualizar as ameaças do oponente e suporta importação e exportação de notações FEN e PGN. Oferece recursos interativos, como desenhar setas, destacar quadrados e um mini tabuleiro para pré-visualização de posições.',
   },
+
+  javacosmos: {
+    description:
+      'JavaCosmos é uma rica coleção de demonstrações de código Java. Oferece exemplos práticos para uma variedade de tecnologias, atendendo tanto a iniciantes quanto a usuários avançados. As principais características incluem Spring Boot, Spring Web, Spring Security, tecnologias de banco de dados como Hibernate e MongoDB, tecnologias de mensagens, motores de template e bibliotecas de teste.',
+  },
 };

@@ -19,7 +19,7 @@ export default function Home() {
           {t('gretting')}
         </div>
 
-        <div className="pt-1 pb-4 text-7xl font-extrabold bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 dark:from-purple-700 dark:to-blue-500 text-transparent">
+        <div className="pt-1 pb-4 text-7xl font-extrabold bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 dark:from-purple-600 dark:to-blue-500 text-transparent">
           Gustavo Toyota
         </div>
 
