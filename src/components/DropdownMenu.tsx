@@ -8,7 +8,9 @@ import { Link } from '@/navigation';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeSwitcher from './ThemeSwitcher';
 
-export default function DropdownMenu() {
+export default function DropdownMenu(props: {
+  translations: Record<string, string>;
+}) {
   const [open, setOpen] = useState(false);
 
   const menuRef = useRef<HTMLDivElement>(null);
@@ -54,7 +56,7 @@ export default function DropdownMenu() {
                 text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400`}
                 onClick={() => setOpen(false)}
               >
-                Home
+                {props.translations['home']}
               </Link>
             </li>
             <li>
@@ -64,7 +66,7 @@ export default function DropdownMenu() {
                 text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400`}
                 onClick={() => setOpen(false)}
               >
-                Projects
+                {props.translations['projects']}
               </Link>
             </li>
           </ul>

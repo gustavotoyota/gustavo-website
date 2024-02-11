@@ -48,7 +48,12 @@ export default function Header() {
             </ul>
 
             <div className="block md:hidden">
-              <DropdownMenu />
+              <DropdownMenu
+                translations={{
+                  home: t('home'),
+                  projects: t('projects'),
+                }}
+              />
             </div>
           </nav>
         </div>
