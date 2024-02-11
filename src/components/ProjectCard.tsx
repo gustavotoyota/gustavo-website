@@ -1,11 +1,13 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export default function ProjectCard(props: {
   title: string;
   description: string;
-  techStack?: string;
+  techStack: string;
   liveUrl?: string;
   sourceCodeUrl: string;
+  imageSrc: string;
 }) {
   const t = useTranslations('projectCard');
 
@@ -53,7 +55,17 @@ export default function ProjectCard(props: {
         </div>
       </div>
 
-      <div className="h-72 bg-neutral-500 rounded-2xl"></div>
+      <div className="relative aspect-[450/309]">
+        {props.imageSrc && (
+          <Image
+            src={props.imageSrc!}
+            alt=""
+            fill={true}
+            className="object-cover"
+            unoptimized={true}
+          ></Image>
+        )}
+      </div>
     </div>
   );
 }

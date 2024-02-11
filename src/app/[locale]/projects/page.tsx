@@ -30,6 +30,7 @@ export default function Projects() {
             techStack="Vue.js, Quasar, Vite, Sass, Node.js, Typescript, Fastify, tRPC, Electron, Capacitor, Redis, PostgreSQL"
             liveUrl="https://deepnotes.app"
             sourceCodeUrl="https://github.com/DeepNotesApp/DeepNotes"
+            imageSrc="/projects/deepnotes.webp"
           />
 
           <div className="h-24"></div>
@@ -40,6 +41,7 @@ export default function Projects() {
             techStack="Vue.js, Nuxt.js, Vuetify, Typescript"
             liveUrl="https://visualsql.net"
             sourceCodeUrl="https://github.com/gustavotoyota/VisualSQL"
+            imageSrc="/projects/visualsql.webp"
           />
 
           <div className="h-24"></div>
@@ -50,6 +52,7 @@ export default function Projects() {
             techStack="React, Next.js, Tailwind CSS, Typescript"
             liveUrl="https://sheetinsights.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/SheetInsights"
+            imageSrc="/projects/sheetinsights.webp"
           />
 
           <div className="h-24"></div>
@@ -60,6 +63,7 @@ export default function Projects() {
             techStack="React, Next.js, Tailwind CSS, Typescript"
             liveUrl="https://chessanalyzer.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/ChessAnalyzer"
+            imageSrc="/projects/chessanalyzer.webp"
           />
 
           <div className="h-24"></div>
@@ -69,6 +73,7 @@ export default function Projects() {
             techStack="Java, Spring Boot, Hibernate, GraphQL, MongoDB, Kafka, RabbitMQ, Thymeleaf, Swagger, JUnit, Mockito"
             description={t('javacosmos.description')}
             sourceCodeUrl="https://github.com/gustavotoyota/JavaCosmos"
+            imageSrc="/projects/javacosmos.webp"
           />
 
           <div className="h-60"></div>

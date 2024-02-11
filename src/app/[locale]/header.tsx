@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header
-      className="fixed h-16 w-full flex items-center border-b
+      className="fixed z-50 h-16 w-full flex items-center border-b
       border-slate-900/20 dark:border-slate-300/10 bg-slate-200 dark:bg-inherit"
     >
       <div className="container px-7 m-auto">
