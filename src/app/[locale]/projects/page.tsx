@@ -31,6 +31,7 @@ export default function Projects() {
             liveUrl="https://deepnotes.app"
             sourceCodeUrl="https://github.com/DeepNotesApp/DeepNotes"
             imageSrc="/projects/deepnotes.webp"
+            priority
           />
 
           <div className="h-24"></div>
@@ -42,6 +43,7 @@ export default function Projects() {
             liveUrl="https://visualsql.net"
             sourceCodeUrl="https://github.com/gustavotoyota/VisualSQL"
             imageSrc="/projects/visualsql.webp"
+            priority
           />
 
           <div className="h-24"></div>

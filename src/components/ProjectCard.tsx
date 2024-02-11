@@ -8,6 +8,7 @@ export default function ProjectCard(props: {
   liveUrl?: string;
   sourceCodeUrl: string;
   imageSrc: string;
+  priority?: boolean;
 }) {
   const t = useTranslations('projectCard');
 
@@ -63,6 +64,7 @@ export default function ProjectCard(props: {
             fill={true}
             className="object-cover"
             unoptimized={true}
+            priority={props.priority}
           ></Image>
         )}
       </div>
