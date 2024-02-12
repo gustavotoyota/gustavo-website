@@ -27,8 +27,8 @@ export default function Contact() {
 
           <div className="h-28"></div>
 
-          <div className="flex flex-col items-center gap-6">
-            <div className="flex gap-10">
+          <div className="flex w-min flex-col items-start sm:items-center gap-0 sm:gap-6 mx-auto">
+            <div className="flex gap-x-10 flex-col sm:flex-row">
               <a
                 href="mailto:mail@gustavotoyota.dev"
                 className="flex items-center gap-2 text-slate-950 dark:text-slate-200 p-2 rounded-lg hover:brightness-200 hover:bg-neutral-600/10 dark:hover:bg-neutral-500/10"
@@ -46,8 +46,7 @@ export default function Contact() {
                 <div>LinkedIn</div>
               </a>
             </div>
-
-            <div className="flex gap-10">
+            <div className="flex gap-x-10 flex-col sm:flex-row">
               <a
                 className="flex items-center gap-2 text-slate-950 dark:text-slate-200 p-2 rounded-lg hover:brightness-200 hover:bg-neutral-600/10 dark:hover:bg-neutral-500/10"
                 href="https://github.com/gustavotoyota"
