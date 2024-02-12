@@ -32,7 +32,7 @@ export default function Projects() {
             priority
           />
 
-          <div className="h-24"></div>
+          <div className="h-32"></div>
 
           <ProjectCard
             title="VisualSQL"
@@ -44,7 +44,7 @@ export default function Projects() {
             priority
           />
 
-          <div className="h-24"></div>
+          <div className="h-32"></div>
 
           <ProjectCard
             title="SheetInsights"
@@ -55,7 +55,7 @@ export default function Projects() {
             imageSrc="/projects/sheetinsights.webp"
           />
 
-          <div className="h-24"></div>
+          <div className="h-32"></div>
 
           <ProjectCard
             title="ChessAnalyzer"
@@ -66,7 +66,7 @@ export default function Projects() {
             imageSrc="/projects/chessanalyzer.webp"
           />
 
-          <div className="h-24"></div>
+          <div className="h-32"></div>
 
           <ProjectCard
             title="JavaCosmos"
