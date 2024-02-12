@@ -3,4 +3,5 @@ export const header = {
   experience: 'Experiência',
   projects: 'Projetos',
   posts: 'Posts',
+  contact: 'Contato',
 };

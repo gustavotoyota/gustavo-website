@@ -1,6 +1,4 @@
 export const projects = {
-  pageTitle: 'Projetos - Gustavo Toyota',
-
   title: 'Projetos',
 
   deepnotes: {

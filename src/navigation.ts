@@ -19,6 +19,11 @@ export const pathnames = {
     en: '/projects',
     pt: '/projetos',
   },
+
+  '/contact': {
+    en: '/contact',
+    pt: '/contato',
+  },
 } satisfies Pathnames<typeof i18nConfig.locales>;
 
 export const { Link, redirect, usePathname, useRouter, getPathname } =

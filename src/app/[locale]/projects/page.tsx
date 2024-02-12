@@ -6,9 +6,7 @@ import ProjectCard from '@/components/ProjectCard';
 export async function generateMetadata({ params: { locale } }: any) {
   const t = await getTranslations({ locale, namespace: 'projects' });
 
-  return {
-    title: t('pageTitle'),
-  };
+  return { title: `${t('title')} - Gustavo Toyota` };
 }
 
 export default function Projects() {

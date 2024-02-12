@@ -1,5 +1,5 @@
 export const home = {
-  pageTitle: 'Home - Gustavo Toyota',
+  title: 'Home',
 
   gretting: "Hey there! I'm",
   who: 'Software Developer',

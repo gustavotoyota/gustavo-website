@@ -1,7 +1,6 @@
 import './globals.css';
 
 import { Inter } from 'next/font/google';
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 import { Providers } from '../providers';
@@ -28,8 +27,6 @@ export default function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const t = useTranslations();
-
   return (
     <html
       lang={locale}
