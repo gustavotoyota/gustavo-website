@@ -25,7 +25,7 @@ export default function Contact() {
 
           <div className="text-center text-5xl font-bold">{t('title')}</div>
 
-          <div className="h-28"></div>
+          <div className="h-24"></div>
 
           <div className="flex w-min flex-col items-start sm:items-center gap-0 sm:gap-6 mx-auto">
             <div className="flex gap-x-10 flex-col sm:flex-row">
