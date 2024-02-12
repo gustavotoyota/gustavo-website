@@ -61,6 +61,7 @@ export default function Header() {
                 translations={{
                   home: t('home'),
                   projects: t('projects'),
+                  contact: t('contact'),
                 }}
               />
             </div>
