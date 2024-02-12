@@ -66,7 +66,7 @@ export default function Contact() {
               </a>
 
               <a
-                className="flex items-center gap-2 text-amber-600 dark:text-amber-600 p-2 rounded-lg hover:brightness-110 hover:bg-amber-500/10 dark:hover:bg-amber-500/10"
+                className="flex items-center gap-2 text-orange-500 dark:text-amber-600 p-2 rounded-lg hover:brightness-110 hover:bg-orange-500/10 dark:hover:bg-amber-500/10"
                 href="https://reddit.com/u/gustavotoyota"
                 target="_blank"
               >
