@@ -19,10 +19,10 @@ export default function Contact() {
 
   return (
     <main>
+      <div className="h-28"></div>
+
       <div className="container px-7 mx-auto">
         <div className="max-w-md lg:max-w-[1000px] mx-auto">
-          <div className="h-28"></div>
-
           <div className="text-center text-5xl font-bold">{t('title')}</div>
 
           <div className="h-24"></div>
@@ -77,6 +77,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      <div className="h-32"></div>
     </main>
   );
 }
