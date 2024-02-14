@@ -41,6 +41,15 @@ export default function Header() {
               </li>
               <li>
                 <Link
+                  href="/experience"
+                  className="block px-5 py-3 cursor-pointer font-semibold select-none
+                  text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
+                >
+                  {t('experience')}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="block px-5 py-3 cursor-pointer font-semibold select-none
                   text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
@@ -61,6 +70,7 @@ export default function Header() {
                 translations={{
                   home: t('home'),
                   projects: t('projects'),
+                  experience: t('experience'),
                   contact: t('contact'),
                 }}
               />

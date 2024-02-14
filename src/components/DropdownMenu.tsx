@@ -71,6 +71,16 @@ export default function DropdownMenu(props: {
             </li>
             <li>
               <Link
+                href="/experience"
+                className={`block px-5 py-3 text-left w-full select-none hover:bg-blue-800/10 dark:hover:bg-blue-400/10
+                text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400`}
+                onClick={() => setOpen(false)}
+              >
+                {props.translations['experience']}
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/contact"
                 className={`block px-5 py-3 text-left w-full select-none hover:bg-blue-800/10 dark:hover:bg-blue-400/10
                 text-slate-950 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400`}
