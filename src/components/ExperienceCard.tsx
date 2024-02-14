@@ -12,18 +12,18 @@ export default function ExperienceCard(props: {
 
   return (
     <div className="p-6 max-w-md rounded-3xl bg-slate-200/75   dark:bg-slate-50/10">
-      <div className="h-8"></div>
-
-      <div className="flex justify-center">
-        <Image
-          src={props.image}
-          alt=""
-          width={props.width}
-          height={props.height}
-        />
+      <div className="h-48 flex justify-center items-center">
+        <div className="flex justify-center">
+          <Image
+            src={props.image}
+            alt=""
+            width={props.width}
+            height={props.height}
+          />
+        </div>
       </div>
 
-      <div className="h-12"></div>
+      <div className="h-8"></div>
 
       <div className="text-2xl font-bold">{t('organization')}</div>
 

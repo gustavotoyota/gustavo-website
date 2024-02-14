@@ -9,7 +9,7 @@ export const experience = {
     title: 'Mid-Level Software Developer',
 
     description:
-      'Developed a contract tracking system with C# .NET, PostgreSQL, and Nuxt.js, assisting in customer management. Created automation tools in VBA for Cielo’s mainframe, essential for over 30 employees. Additionally, maintained and developed simulation tools for customer scenario analysis and profitability.',
+      'Developed a customer contract tracking system using Vue.js, Nuxt.js, and C# .NET. Additionally, I created automation tools in VBA, which became essential to the work of 30+ collaborators.',
 
     startDate: 'Jan 2020',
     endDate: 'Feb 2021',
@@ -20,7 +20,7 @@ export const experience = {
     title: 'Software Development Intern',
 
     description:
-      'Performed maintenance on the internal monitoring system with VBA and SQL. Developed a tool for adjusting rates for Cielo customers and an automation tool for filling out customer contracts, both using VBA.',
+      'Performed maintenance on the internal activity monitoring and tracking system of the department and developed tools for rate adjustment and contract automation, all using VBA and SQL.',
 
     startDate: 'Nov 2019',
     endDate: 'Dec 2019',
@@ -31,7 +31,7 @@ export const experience = {
     title: 'Bachelor of Computer Science',
 
     description:
-      'In my role as a Monitor for Programming Algorithms I and II, I provided academic support to students, clarifying their doubts. Additionally, I was part of the organization team for SeCoT - Computer Science and Technology Week, contributing to the successful execution of the event. I also participated in several programming marathons. Utilized languages such as C, C++, Python, and Java.',
+      'Worked as monitor for Algorithms and Programming I and II, and contributed to the organization of SeCoT. Participated in several programming marathons. Development in C, C++, Python, and Java.',
 
     startDate: 'Mar 2015',
     endDate: 'Feb 2020',
