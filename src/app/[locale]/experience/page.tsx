@@ -29,13 +29,13 @@ export default function Contact() {
           <ExperienceCard
             name="cieloMidLevelDev"
             image={cieloImage}
-            width={190}
+            width={220}
           />
 
           <ExperienceCard
             name="cieloIntern"
             image={cieloImage}
-            width={190}
+            width={220}
           />
         </div>
 
@@ -49,7 +49,7 @@ export default function Contact() {
           <ExperienceCard
             name="ufscarCompSci"
             image={ufscarImage}
-            width={160}
+            width={170}
           />
         </div>
       </div>
