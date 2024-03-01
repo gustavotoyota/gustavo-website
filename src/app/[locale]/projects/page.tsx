@@ -70,6 +70,17 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
+            title="InvestTracker"
+            description={t('investtracker.description')}
+            techStack="C#, ASP.NET Core, MongoDB"
+            liveUrl="https://investtracker.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/investtracker"
+            imageSrc="/projects/investtracker.webp"
+          />
+
+          <div className="h-32"></div>
+
+          <ProjectCard
             title="ChessAnalyzer"
             description={t('chessanalyzer.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"

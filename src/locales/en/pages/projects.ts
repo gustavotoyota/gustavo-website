@@ -21,6 +21,11 @@ export const projects = {
       'SheetInsights is a user interface for AI APIs like ChatGPT and OctoAI. It processes CSV data, performing user-defined queries on each row. For each row, SheetInsights sends a query to an AI API and saves the result in TSV format. It allows users to input the API key, select the LLM model for the query, and add multiple queries, each appearing in a separate output column.',
   },
 
+  investtracker: {
+    description:
+      'InvestTracker is a tool designed for tracking the performance of selected stocks. Users can input stock symbols to add stocks to their personalized list. The application uses a REST API for managing stocks and leverages yfinance to retrieve market information. Stock data is stored in a MongoDB database, while stock charts are rendered using TradingView charts.',
+  },
+
   chessanalyzer: {
     description:
       'ChessAnalyzer is an open-source tool for chess analysis. You can evaluate positions with Stockfish 16, play against the computer, and visualize opponent’s threats. It supports import and export of FEN and PGN notations. Interactive features include drawing arrows, highlighting squares, and a mini board that previews positions when you hover over a move.',
