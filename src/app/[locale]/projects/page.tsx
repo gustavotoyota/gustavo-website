@@ -47,6 +47,18 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
+            title="FlexResume"
+            description={t('flexresume.description')}
+            techStack="React, Next.js, Tailwind CSS, Typescript"
+            liveUrl="https://flexresume.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/FlexResume"
+            imageSrc="/projects/flexresume.webp"
+            priority
+          />
+
+          <div className="h-32"></div>
+
+          <ProjectCard
             title="SheetInsights"
             description={t('sheetinsights.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"

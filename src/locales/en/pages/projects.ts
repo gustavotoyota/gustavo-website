@@ -11,6 +11,11 @@ export const projects = {
       'VisualSQL is a SQL query builder that uses a node-link system. It supports various operations, organizes queries in modules, and offers features like node descriptions for understanding complex queries, auto-completion of column names for ease of use, and the ability to reference nodes as subqueries for advanced queries.',
   },
 
+  flexresume: {
+    description:
+      'FlexResume is a flexible resume building tool. It leverages a YAML format for streamlined data input and customizable LaTeX templates for tailored resume design. The built-in template engine efficiently renders the resume data into LaTeX code.  Optionally, FlexResume uses TeX Live to generate a professional PDF version of the final resume.',
+  },
+
   sheetinsights: {
     description:
       'SheetInsights is a user interface for AI APIs like ChatGPT and OctoAI. It processes CSV data, performing user-defined queries on each row. For each row, SheetInsights sends a query to an AI API and saves the result in TSV format. It allows users to input the API key, select the LLM model for the query, and add multiple queries, each appearing in a separate output column.',
