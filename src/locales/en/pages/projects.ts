@@ -31,6 +31,11 @@ export const projects = {
       'ChessAnalyzer is an open-source tool for chess analysis. You can evaluate positions with Stockfish 16, play against the computer, and visualize opponent’s threats. It supports import and export of FEN and PGN notations. Interactive features include drawing arrows, highlighting squares, and a mini board that previews positions when you hover over a move.',
   },
 
+  dotnetcosmos: {
+    description:
+      'DotNetCosmos is a C# .NET code catalog offering useful code demonstrations. It encompasses a variety of technologies such as ASP.NET Core, REST API, data validation annotations, Entity Framework schema annotations, and unit testing with NUnit, xUnit, and MSTest, SignalR, MongoDB, and SQLite.',
+  },
+
   javacosmos: {
     description:
       'JavaCosmos is a rich collection of Java code demonstrations. It offers practical examples for a variety of technologies, serving both beginners and advanced users. Key features include Spring Boot, Spring Web, Spring Security, database technologies like Hibernate and MongoDB, messaging technologies, template engines, and testing libraries.',

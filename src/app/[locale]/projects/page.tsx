@@ -92,6 +92,16 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
+            title="DotNetCosmos"
+            description={t('dotnetcosmos.description')}
+            techStack="C#, ASP.NET Core, MongoDB, SQLite, SignalR"
+            sourceCodeUrl="https://github.com/gustavotoyota/DotNetCosmos"
+            imageSrc="/projects/dotnetcosmos.webp"
+          />
+
+          <div className="h-32"></div>
+
+          <ProjectCard
             title="JavaCosmos"
             techStack="Java, Spring Boot, Hibernate, GraphQL, MongoDB, Kafka, RabbitMQ, Thymeleaf, Swagger, JUnit, Mockito"
             description={t('javacosmos.description')}
