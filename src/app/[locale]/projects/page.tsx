@@ -84,6 +84,7 @@ export default function Projects() {
             title="WorldMaster"
             techStack="React, Next.js, Tailwind CSS, Typescript"
             description={t('WorldMaster.description')}
+            liveUrl="https://worldmaster.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/WorldMaster"
             imageSrc="/projects/worldmaster.webp"
           />
