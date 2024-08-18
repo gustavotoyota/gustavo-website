@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { FaRedditAlien } from 'react-icons/fa6';
@@ -8,7 +9,9 @@ import {
   IoMail,
 } from 'react-icons/io5';
 
-export async function generateMetadata({ params: { locale } }: any) {
+export async function generateMetadata({
+  params: { locale },
+}: any): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'contact' });
 
   return { title: `${t('title')} - Gustavo Toyota` };

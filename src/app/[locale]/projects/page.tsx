@@ -24,7 +24,7 @@ export default function Projects() {
 
           <ProjectCard
             title="DeepNotes"
-            description={t('deepnotes.description')}
+            description={t('DeepNotes.description')}
             techStack="Vue.js, Quasar, Vite, Sass, Node.js, Typescript, Fastify, tRPC, Electron, Capacitor, Redis, PostgreSQL"
             liveUrl="https://deepnotes.app"
             sourceCodeUrl="https://github.com/DeepNotesApp/DeepNotes"
@@ -36,7 +36,7 @@ export default function Projects() {
 
           <ProjectCard
             title="VisualSQL"
-            description={t('visualsql.description')}
+            description={t('VisualSQL.description')}
             techStack="Vue.js, Nuxt.js, Vuetify, Typescript"
             liveUrl="https://visualsql.net"
             sourceCodeUrl="https://github.com/gustavotoyota/VisualSQL"
@@ -48,7 +48,7 @@ export default function Projects() {
 
           <ProjectCard
             title="FlexResume"
-            description={t('flexresume.description')}
+            description={t('FlexResume.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"
             liveUrl="https://flexresume.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/FlexResume"
@@ -60,7 +60,7 @@ export default function Projects() {
 
           <ProjectCard
             title="SheetInsights"
-            description={t('sheetinsights.description')}
+            description={t('SheetInsights.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"
             liveUrl="https://sheetinsights.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/SheetInsights"
@@ -71,7 +71,7 @@ export default function Projects() {
 
           <ProjectCard
             title="ChessAnalyzer"
-            description={t('chessanalyzer.description')}
+            description={t('ChessAnalyzer.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"
             liveUrl="https://chessanalyzer.gustavotoyota.dev"
             sourceCodeUrl="https://github.com/gustavotoyota/ChessAnalyzer"
@@ -81,9 +81,19 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
+            title="WorldMaster"
+            techStack="React, Next.js, Tailwind CSS, Typescript"
+            description={t('WorldMaster.description')}
+            sourceCodeUrl="https://github.com/gustavotoyota/WorldMaster"
+            imageSrc="/projects/worldmaster.webp"
+          />
+
+          <div className="h-32"></div>
+
+          <ProjectCard
             title="JavaCosmos"
             techStack="Java, Spring Boot, Hibernate, GraphQL, MongoDB, Kafka, RabbitMQ, Thymeleaf, Swagger, JUnit, Mockito"
-            description={t('javacosmos.description')}
+            description={t('JavaCosmos.description')}
             sourceCodeUrl="https://github.com/gustavotoyota/JavaCosmos"
             imageSrc="/projects/javacosmos.webp"
           />
