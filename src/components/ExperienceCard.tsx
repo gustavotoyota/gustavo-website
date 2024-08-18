@@ -8,7 +8,7 @@ export default function ExperienceCard(props: {
   width?: number;
   height?: number;
 }) {
-  const t = useTranslations(`experience.${props.name}`);
+  const t = (useTranslations as any)(`experience.${props.name}`);
 
   return (
     <div className="p-6 max-w-md rounded-3xl bg-slate-200/75   dark:bg-slate-50/10">
