@@ -92,14 +92,15 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
-            title="JavaCosmos"
-            techStack="Java, Spring Boot, Hibernate, GraphQL, MongoDB, Kafka, RabbitMQ, Thymeleaf, Swagger, JUnit, Mockito"
-            description={t('JavaCosmos.description')}
-            sourceCodeUrl="https://github.com/gustavotoyota/JavaCosmos"
-            imageSrc="/projects/javacosmos.webp"
+            title="ChronoMap"
+            techStack="React, Next.js, Tailwind CSS, Typescript"
+            description={t('ChronoMap.description')}
+            liveUrl="https://chronomap.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/ChronoMap"
+            imageSrc="/projects/chronomap.webp"
           />
 
-          <div className="h-40"></div>
+          <div className="h-32"></div>
         </div>
       </div>
     </main>

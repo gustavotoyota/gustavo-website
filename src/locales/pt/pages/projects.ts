@@ -45,4 +45,9 @@ export const projects = {
     description:
       'JavaCosmos é uma rica coleção de demonstrações de código Java. Oferece exemplos práticos para uma variedade de tecnologias, atendendo tanto a iniciantes quanto a usuários avançados. As principais características incluem Spring Boot, Spring Web, Spring Security, tecnologias de banco de dados como Hibernate e MongoDB, tecnologias de mensagens, motores de template e bibliotecas de teste.',
   },
+
+  ChronoMap: {
+    description:
+      'O ChronoMap é um aplicativo web com uma linha do tempo abrangente, que vai desde o início do universo até os tempos modernos, oferecendo um recurso educativo e visualmente envolvente para estudantes, professores e entusiastas da história. Explore eventos e eras importantes em um formato interativo, feito para tornar o aprendizado de história fácil e prazeroso.',
+  },
 };
