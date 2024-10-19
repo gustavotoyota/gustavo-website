@@ -81,12 +81,12 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
-            title="WorldMaster"
+            title="GeoMaster"
             techStack="React, Next.js, Tailwind CSS, Typescript"
-            description={t('WorldMaster.description')}
-            liveUrl="https://worldmaster.gustavotoyota.dev"
-            sourceCodeUrl="https://github.com/gustavotoyota/WorldMaster"
-            imageSrc="/projects/worldmaster.webp"
+            description={t('GeoMaster.description')}
+            liveUrl="https://geomaster.gustavotoyota.dev"
+            sourceCodeUrl="https://github.com/gustavotoyota/GeoMaster"
+            imageSrc="/projects/geomaster.webp"
           />
 
           <div className="h-32"></div>

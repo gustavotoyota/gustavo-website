@@ -1,9 +1,9 @@
 export const projects = {
   title: 'Projects',
 
-  WorldMaster: {
+  GeoMaster: {
     description:
-      'WorldMaster is an educational tool that helps users learn about countries and their capitals. It provides a flashcard-based learning experience, allowing users to test and validate their knowledge. The users can mark the countries they have guessed correctly and track their progress. Use shift to show the country flag, left-click to show the country name, and right-click to show the capital name.',
+      'GeoMaster is an educational tool that helps users learn about countries and their capitals. It provides a flashcard-based learning experience, allowing users to test and validate their knowledge. The users can mark the countries they have guessed correctly and track their progress. Use shift to show the country flag, left-click to show the country name, and right-click to show the capital name.',
   },
 
   DeepNotes: {
