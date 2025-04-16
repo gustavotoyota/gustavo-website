@@ -50,4 +50,9 @@ export const projects = {
     description:
       'O ChronoMap é um aplicativo web com uma linha do tempo abrangente, que vai desde o início do universo até os tempos modernos, oferecendo um recurso educativo e visualmente envolvente para estudantes, professores e entusiastas da história. Explore eventos e eras importantes em um formato interativo, feito para tornar o aprendizado de história fácil e prazeroso.',
   },
+
+  LegitInc: {
+    description:
+      'Legit Inc® é uma empresa de gestão de artistas e produtores localizada em Barcelona, Espanha. Foca-se em proporcionar uma abordagem inovadora e contemporânea à indústria musical, adaptando-se às necessidades específicas dos seus artistas. Os seus serviços abrangem áreas como sincronização, atuações ao vivo, estratégia criativa e relações com editoras/gravadoras.',
+  },
 };

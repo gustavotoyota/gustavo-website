@@ -35,6 +35,17 @@ export default function Projects() {
           <div className="h-32"></div>
 
           <ProjectCard
+            title="Legit Inc®"
+            description={t('LegitInc.description')}
+            techStack="Vue.js, Nuxt.js, Typescript"
+            liveUrl="https://legit-inc.com"
+            imageSrc="/projects/legit-inc.webp"
+            priority
+          />
+
+          <div className="h-32"></div>
+
+          <ProjectCard
             title="VisualSQL"
             description={t('VisualSQL.description')}
             techStack="Vue.js, Nuxt.js, Vuetify, Typescript"

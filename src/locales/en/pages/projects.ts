@@ -50,4 +50,9 @@ export const projects = {
     description:
       'ChronoMap is a comprehensive timeline web app that spans from the beginning of the universe to modern times, designed as a powerful educational tool. Explore historical events interactively by hovering over items for brief descriptions and clicking to access detailed Wikipedia pages. Perfect for students, educators, and history enthusiasts.',
   },
+
+  LegitInc: {
+    description:
+      'Legit Inc® is an artist and producer management company located in Barcelona, Spain. They focus on providing an innovative and contemporary approach to the music industry, adapting to the specific needs of their artists. Their services cover areas such as synchronization, live performances, creative strategy, and label relations.',
+  },
 };

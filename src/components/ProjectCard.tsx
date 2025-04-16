@@ -6,7 +6,7 @@ export default function ProjectCard(props: {
   description: string;
   techStack: string;
   liveUrl?: string;
-  sourceCodeUrl: string;
+  sourceCodeUrl?: string;
   imageSrc: string;
   priority?: boolean;
 }) {
@@ -45,14 +45,16 @@ export default function ProjectCard(props: {
             </>
           )}
 
-          <a
-            href={props.sourceCodeUrl}
-            target="_blank"
-          >
-            <button className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md">
-              {t('sourceRepo')}
-            </button>
-          </a>
+          {props.sourceCodeUrl && (
+            <a
+              href={props.sourceCodeUrl}
+              target="_blank"
+            >
+              <button className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md">
+                {t('sourceRepo')}
+              </button>
+            </a>
+          )}
         </div>
       </div>
 
