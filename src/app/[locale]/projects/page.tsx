@@ -61,7 +61,7 @@ export default function Projects() {
             title="SheetInsights"
             description={t('SheetInsights.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"
-            liveUrl="https://sheetinsights.gustavotoyota.dev"
+            liveUrl="https://sheetinsights.gustavotoyota.com"
             sourceCodeUrl="https://github.com/gustavotoyota/SheetInsights"
             imageSrc="/projects/sheetinsights.webp"
           />
@@ -72,7 +72,7 @@ export default function Projects() {
             title="ChessAnalyzer"
             description={t('ChessAnalyzer.description')}
             techStack="React, Next.js, Tailwind CSS, Typescript"
-            liveUrl="https://chessanalyzer.gustavotoyota.dev"
+            liveUrl="https://chessanalyzer.gustavotoyota.com"
             sourceCodeUrl="https://github.com/gustavotoyota/ChessAnalyzer"
             imageSrc="/projects/chessanalyzer.webp"
           />
@@ -83,7 +83,7 @@ export default function Projects() {
             title="GeoMaster"
             techStack="React, Next.js, Tailwind CSS, Typescript"
             description={t('GeoMaster.description')}
-            liveUrl="https://geomaster.gustavotoyota.dev"
+            liveUrl="https://geomaster.gustavotoyota.com"
             sourceCodeUrl="https://github.com/gustavotoyota/GeoMaster"
             imageSrc="/projects/geomaster.webp"
           />
@@ -94,7 +94,7 @@ export default function Projects() {
             title="ChronoMap"
             techStack="React, Next.js, Tailwind CSS, Typescript"
             description={t('ChronoMap.description')}
-            liveUrl="https://chronomap.gustavotoyota.dev"
+            liveUrl="https://chronomap.gustavotoyota.com"
             sourceCodeUrl="https://github.com/gustavotoyota/ChronoMap"
             imageSrc="/projects/chronomap.webp"
           />
