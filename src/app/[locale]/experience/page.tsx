@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 import cieloImage from '@/../public/experience/cielo.svg';
+import retailHubImage from '@/../public/experience/retailhub.svg';
 import ufscarImage from '@/../public/experience/ufscar.png';
 import ExperienceCard from '@/components/ExperienceCard';
 
@@ -25,7 +26,13 @@ export default function Contact() {
 
         <div className="h-20"></div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-10">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-10 flex-wrap">
+          <ExperienceCard
+            name="retailHub"
+            image={retailHubImage}
+            width={280}
+          />
+
           <ExperienceCard
             name="cieloMidLevelDev"
             image={cieloImage}

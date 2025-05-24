@@ -11,7 +11,7 @@ export default function ExperienceCard(props: {
   const t = (useTranslations as any)(`experience.${props.name}`);
 
   return (
-    <div className="p-6 max-w-md rounded-3xl bg-slate-200/75   dark:bg-slate-50/10">
+    <div className="p-6 max-w-sm rounded-3xl bg-slate-200/75   dark:bg-slate-50/10">
       <div className="h-48 flex justify-center items-center">
         <div className="flex justify-center">
           <Image

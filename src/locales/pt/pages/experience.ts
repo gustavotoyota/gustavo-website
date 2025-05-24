@@ -4,6 +4,17 @@ export const experience = {
   professionalExperience: 'Experiência profissional',
   education: 'Formação acadêmica',
 
+  retailHub: {
+    organization: 'RetailHub',
+    title: 'Desenvolvedor de Software',
+
+    description:
+      'Desenvolvimento de storefronts e CMS para e-commerces com Next.js, React e AWS, atendendo marcas como The North Face, Max Titanium e Adcos.',
+
+    startDate: 'Mar 2024',
+    endDate: 'Mai 2025',
+  },
+
   cieloMidLevelDev: {
     organization: 'Cielo',
     title: 'Desenvolvedor de Software Pleno',

@@ -4,9 +4,20 @@ export const experience = {
   professionalExperience: 'Experience',
   education: 'Education',
 
+  retailHub: {
+    organization: 'RetailHub',
+    title: 'Software Developer',
+
+    description:
+      'Development of storefronts and CMS for e-commerce with Next.js, React and AWS, serving brands like The North Face, Max Titanium and Adcos.',
+
+    startDate: 'Mar 2024',
+    endDate: 'May 2025',
+  },
+
   cieloMidLevelDev: {
     organization: 'Cielo',
-    title: 'Mid-Level Software Developer',
+    title: 'Software Developer',
 
     description:
       'Developed a customer contract tracking system using Vue.js, Nuxt.js, and C# .NET. Additionally, I created automation tools in VBA, which became essential to the work of 30+ collaborators.',

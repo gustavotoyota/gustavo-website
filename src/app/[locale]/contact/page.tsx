@@ -1,13 +1,7 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { FaRedditAlien } from 'react-icons/fa6';
-import {
-  IoLogoFacebook,
-  IoLogoGithub,
-  IoLogoLinkedin,
-  IoMail,
-} from 'react-icons/io5';
+import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5';
 
 export async function generateMetadata({
   params: { locale },
@@ -39,7 +33,8 @@ export default function Contact() {
                 <IoMail size={32} />
                 <div>mail@gustavotoyota.com</div>
               </a>
-
+            </div>
+            <div className="flex gap-x-10 flex-col sm:flex-row">
               <a
                 className="flex items-center gap-2 text-blue-800 dark:text-blue-500 p-2 rounded-lg hover:brightness-125 hover:bg-blue-500/10 dark:hover:bg-blue-500/10"
                 href="https://linkedin.com/in/gustavotoyota/"
@@ -48,8 +43,7 @@ export default function Contact() {
                 <IoLogoLinkedin size={32} />
                 <div>LinkedIn</div>
               </a>
-            </div>
-            <div className="flex gap-x-10 flex-col sm:flex-row">
+
               <a
                 className="flex items-center gap-2 text-slate-950 dark:text-slate-200 p-2 rounded-lg hover:brightness-200 hover:bg-neutral-600/10 dark:hover:bg-neutral-500/10"
                 href="https://github.com/gustavotoyota"
@@ -57,24 +51,6 @@ export default function Contact() {
               >
                 <IoLogoGithub size={32} />
                 <div>GitHub</div>
-              </a>
-
-              <a
-                className="flex items-center gap-2 text-blue-800 dark:text-blue-500 p-2 rounded-lg hover:brightness-125 hover:bg-blue-500/10 dark:hover:bg-blue-500/10"
-                href="https://facebook.com/gustavotoyota"
-                target="_blank"
-              >
-                <IoLogoFacebook size={32} />
-                <div>Facebook</div>
-              </a>
-
-              <a
-                className="flex items-center gap-2 text-orange-500 dark:text-amber-600 p-2 rounded-lg hover:brightness-110 hover:bg-orange-500/10 dark:hover:bg-amber-500/10"
-                href="https://reddit.com/u/gustavotoyota"
-                target="_blank"
-              >
-                <FaRedditAlien size={32} />
-                <div>Reddit</div>
               </a>
             </div>
           </div>
